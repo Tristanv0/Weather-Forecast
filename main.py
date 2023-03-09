@@ -17,7 +17,7 @@ parameters = {
 }
 response = requests.get("http://api.weatherapi.com/v1/current.json", params=parameters) #key=a152189b0c2e4f4291e42103230803&q=London&aqi=no
 
-print(response.status_code)
+
 
 def jprint(obj):
     if obj.status_code == 200:
